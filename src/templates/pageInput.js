@@ -1,5 +1,4 @@
 import React from "react";
-import Utils from "@/module/Util";
 
 // Components
 import DefaultTextArea from "@/components/molucules/DefaultTextArea";
@@ -8,7 +7,6 @@ import DefaultRadio from "@/components/molucules/DefaultRadio";
 
 const PageInput = ({pageContext}) => {
 
-    console.log(Utils.createFileForDrive())
     // Initialize
     const {dataFilePath} = pageContext;
     const pageData = require(`@/createPages/${dataFilePath}`)
@@ -48,11 +46,12 @@ const PageInput = ({pageContext}) => {
         setFormDatum(_formDatum)
     }
 
+
     return (
       <div>
       <form action="" ref={formRef}>
         {createFields()}
-      <button type={"submit"} onClick={(e)=>{onGetFormData(e)}}></button>
+      <button type={"submit"} onClick={(e)=>{onGetFormData(e)}}>保存</button>
       </form>
       </div>
     )
