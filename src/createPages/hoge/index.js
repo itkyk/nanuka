@@ -1,21 +1,51 @@
-const pageData = [
-    {
-        section: "kv",
-        image: "https://picsum.photos/960/540",
-        inputs: [
-            {type: "textArea", maxLength: 100, title: "title", description: "ここがタイトル?!!だろぉ？!！", key: "title"},
-            {type: "textArea", maxLength: 100, title: "description", description: "ここに説明を入力", key:"description"}
-        ]
-    },
-    {
-        section: "lead",
-        image: "https://picsum.photos/960/540",
-        inputs: [
-            {type: "textArea", maxLength: 100, title: "title", description: "ここがタイトル", key: "title"},
-            {type: "radio", title: "タグ", description: "必要なタグを選択", key: "checkBox", output: "string", boxes: [{default: false, value: "禿", key:"none"}, {default: true, value: "ふさふさ", key: "exists"}]},
-            {type: "radio", title: "タグ", description: "必要なタグを選択", key: "sex", output: "boolean", boxes: [{default: false, value: "男", key:"male"}, {default: true, value: "女", key: "female"}]}
-        ]
-    }
-]
+const Fixer = require("../../../fixerModule/bin/index").default;
 
-module.exports = pageData;
+module.exports = [
+  Fixer.createField({
+    section: "kv",
+    img: "https://picsum.photos/960/540",
+    inputs: [
+      Fixer.createInput({
+        maxLength: 100,
+        fieldName: "title",
+        description: "Input のモジュールです。",
+        key: "title",
+      }),
+      Fixer.createTextArea({
+        fieldName: "lead",
+        description: "TextArea のモジュールです。",
+        key: "description",
+      }),
+      Fixer.createRadioButton({
+        fieldName: "radioButtonBoolean",
+        description: "Radioボタンのモジュールです。(Boolean)",
+        key: "radio-boolean",
+        output: "boolean",
+        boxes: [
+          { default: false, value: "ある", key: "exist" },
+          { default: true, value: "ない", key: "none" },
+        ],
+      }),
+      Fixer.createRadioButton({
+        fieldName: "radioButtonString",
+        description: "Radioボタンのモジュールです。(String)",
+        key: "radio-string",
+        output: "string",
+        boxes: [
+          { default: false, value: "ある", key: "exist" },
+          { default: true, value: "ない", key: "none" },
+        ],
+      }),
+      Fixer.createCheckBox({
+        fieldName: "checkBox",
+        description: "CheckBoxTest",
+        output: "array",
+        key: "checkbox",
+        boxes: [
+          { default: true, value: "子", key: "mouse" },
+          { value: "牛", key: "cow" },
+        ],
+      }),
+    ],
+  }),
+];
