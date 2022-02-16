@@ -1,0 +1,17 @@
+{
+  "name": "fixerModule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "init": "tsc --init -d",
+    "start": "tsc -w",
+    "build": "tsc -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
+}
