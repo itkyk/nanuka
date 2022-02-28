@@ -1,0 +1,50 @@
+2022-02-28 22:54:59.072 JST [15551] LOG:  starting PostgreSQL 14.2 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2022-02-28 22:54:59.076 JST [15551] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-02-28 22:54:59.076 JST [15551] LOG:  listening on IPv6 address "::1", port 5432
+2022-02-28 22:54:59.077 JST [15551] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-28 22:54:59.084 JST [15558] LOG:  database system was shut down at 2022-02-28 22:54:50 JST
+2022-02-28 22:54:59.090 JST [15551] LOG:  database system is ready to accept connections
+2022-02-28 22:55:04.934 JST [15619] FATAL:  database "backend_development" does not exist
+2022-02-28 22:55:05.123 JST [15625] FATAL:  database "backend_development" does not exist
+2022-02-28 22:55:06.524 JST [15637] FATAL:  database "backend_development" does not exist
+2022-02-28 22:55:06.720 JST [15640] FATAL:  database "backend_development" does not exist
+2022-02-28 22:55:11.745 JST [15684] FATAL:  database "backend_development" does not exist
+2022-02-28 22:55:11.820 JST [15685] FATAL:  database "backend_development" does not exist
+2022-02-28 22:56:59.114 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:56:59.787 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:56:59.787 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:00.459 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:00.459 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:01.133 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:01.134 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:01.813 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:01.813 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:02.488 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:02.488 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:03.171 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:03.171 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:03.850 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:03.850 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:04.530 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:04.530 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:05.216 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:05.216 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:05.901 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:05.901 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:06.590 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:06.590 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:07.272 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:07.272 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:07.960 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:07.960 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:08.639 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:08.639 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:09.322 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:09.322 JST [15563] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-02-28 22:57:09.747 JST [15562] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-02-28 22:57:11.827 JST [15551] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-02-28 22:57:11.827 JST [15551] LOG:  performing immediate shutdown because data directory lock file is invalid
+2022-02-28 22:57:11.827 JST [15551] LOG:  received immediate shutdown request
+2022-02-28 22:57:11.827 JST [15551] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-02-28 22:57:11.829 JST [15563] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2022-02-28 22:57:11.833 JST [15551] LOG:  database system is shut down
